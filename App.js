@@ -2,7 +2,7 @@ let startTime;
 let elapsedTime = 0;
 let timerInterval;
 let price = 0;
-const RATE_PER_HOUR = 4000;
+const RATE_PER_HOUR = 2500;
 
 function formatTime(time) {
   let hours = Math.floor(time / 3600);
